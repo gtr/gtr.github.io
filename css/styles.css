@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    /* Height of the footer */
+    background: rgb(235, 235, 235);
+}
+
+.centered-content {
+    
+    text-align: left;
+    background : rgb(235, 235, 235);
+    padding: 20px;
+    
+}
