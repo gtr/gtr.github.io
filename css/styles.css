@@ -34,3 +34,13 @@ footer {
     background-color: rgb(73, 73, 73);
 }
 
+img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .navbar-light .navbar-toggler {
+    color: rgb(189, 17, 17);
+    background-color: rgb(224, 224, 224);
+}
