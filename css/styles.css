@@ -65,4 +65,16 @@ img {
     visibility: hidden;
     width: 50%;
     background: white
-  }
+}
+
+.fas, .fab {
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+
+
+.fas:hover, .fab:hover {
+    color: #2c3b49;
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
