@@ -78,3 +78,11 @@ img {
     transform: scale(1.5, 1.5);
     opacity: 1;
 }
+
+.card-img-top:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.card-img-top {
+    transition: 0.2s ease;
+}
