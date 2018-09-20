@@ -34,7 +34,10 @@ footer {
 }
 
 .nav-link:hover {
-    background-color: rgb(235, 183, 183);
+    text-decoration: underline wavy rgb(235, 183, 183);
+    /* border-bottom: 6px solid rgb(235, 183, 183); */
+    /* background-color: rgb(235, 183, 183); */
+    transform: scale(1.05);
 }
 
 img {
@@ -105,9 +108,25 @@ a:hover {
 }
 
 .fas:hover, .fab:hover {
-    color: rgb(231, 230, 168);
-    transform: scale(1.5, 1.5);
+    /* color: rgb(231, 230, 168); */
+    transform: scale(1.35, 1.35);
     opacity: 1;
+}
+
+.fa-file-pdf:hover {
+    color: rgb(201, 96, 96);
+}
+
+.fa-linkedin:hover {
+    color: rgb(0, 119, 181);
+}
+
+.fa-envelope:hover {
+    color: rgb(231, 230, 168);
+}
+
+.fa-github:hover {
+    color: rgb(108, 198, 68)
 }
 
 .card-img-top:hover {
