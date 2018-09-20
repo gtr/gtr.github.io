@@ -73,6 +73,7 @@ img {
 
 .greeting:hover {
     color: rgb(235, 183, 183);
+    transform: scale(1.05);
 }
 
 a {
@@ -100,7 +101,7 @@ a:hover {
 .fas, .fab {
     color: white;
     opacity: 0.8;
-    transition: 0.2s ease;
+    transition: 0.35s ease;
 }
 
 .fas:hover, .fab:hover {
