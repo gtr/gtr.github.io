@@ -2,6 +2,8 @@ html,
 body {
     height: 100%;
     margin: 0;
+    background-color: rgb(36, 36, 36);
+    color:white;
 }
 
 .content {
@@ -17,28 +19,29 @@ footer {
     bottom: 0;
     width: 100%;
     height: 90px;
-    /* Height of the footer */
-    background: #2c3b49;
+    background: rgb(36, 36, 36);
 }
 
 .centered-content {
     color: white;
     text-align: left;
-    background: #2c3b49;
-    padding: 20px;
-    
+    background: rgb(36, 36, 36);
+    padding: 20px;    
 }
 
-
 .navbar {
-    background-color: #2c3b49;
+    background-color: rgb(36, 36, 36);
+}
+
+.nav-link:hover {
+    background-color: rgb(235, 183, 183);
 }
 
 img {
     display: block;
     max-width: 100%;
     align-self: center;
-    width: 300px;
+    width: 340px;
     height: auto;
     border-radius: 5px 5px 0 0;
 }
@@ -50,11 +53,38 @@ img {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s
+    transition: 0.3s;
+    background-color: rgb(61, 61, 61);
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.greeting {
+    font-family: BlinkMacSystemFont;
+    text-align: center;
+    font-size:20pt;
+    font-weight:600;
+    color:rgb(235, 243, 201);
+    font-style: italic;
+    transition: 0.2s;
+}
+
+.greeting:hover {
+    color: rgb(235, 183, 183);
+}
+
+a {
+    color: rgb(231, 230, 168);
+    transition: .3s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.01);
+    color: rgb(235, 183, 183);
 }
 
 .container {
@@ -68,13 +98,13 @@ img {
 }
 
 .fas, .fab {
+    color: white;
     opacity: 0.8;
     transition: 0.2s ease;
 }
 
-
 .fas:hover, .fab:hover {
-    color: #2c3b49;
+    color: rgb(231, 230, 168);
     transform: scale(1.5, 1.5);
     opacity: 1;
 }
@@ -84,5 +114,19 @@ img {
 }
 
 .card-img-top {
-    transition: 0.2s ease;
+    transition: 0.3s ease;
+}
+
+.img-responsive {
+    position: relative;
+    display: block;
+    border:5px solid rgb(231, 230, 168);
+    border-radius: 500px;
+    transition: 0.5s;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+.img-responsive:hover {
+    border:9px solid rgb(235, 183, 183);
 }
