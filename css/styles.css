@@ -46,7 +46,7 @@ img {
     align-self: center;
     width: 340px;
     height: auto;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 2px 2px;
 }
 
  .navbar-light .navbar-toggler {
@@ -65,12 +65,12 @@ img {
 }
 
 .greeting {
-    font-family: BlinkMacSystemFont;
+    font-family: 'Fugaz One', cursive;
     text-align: center;
     font-size:20pt;
     font-weight:600;
     color:rgb(235, 243, 201);
-    font-style: italic;
+    /* font-style: italic; */
     transition: 0.2s;
 }
 
@@ -88,7 +88,7 @@ a {
 
 a:hover {
     transform: scale(1.01);
-    color: rgb(235, 183, 183);
+    color: rgb(233, 164, 164);
 }
 
 .container {
@@ -140,7 +140,7 @@ a:hover {
 .img-responsive {
     position: relative;
     display: block;
-    border:5px solid rgb(231, 230, 168);
+    border:7px solid rgb(231, 230, 168);
     border-radius: 500px;
     transition: 0.5s;
     -webkit-border-radius: 500px;
@@ -148,5 +148,5 @@ a:hover {
 }
 
 .img-responsive:hover {
-    border:9px solid rgb(235, 183, 183);
+    border:4px solid rgb(233, 164, 164);
 }
