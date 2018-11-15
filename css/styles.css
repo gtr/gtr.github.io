@@ -65,7 +65,7 @@ img {
 }
 
 .greeting {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Open Sans', cursive;
     text-align: center;
     font-size:20pt;
     font-weight:600;
@@ -142,7 +142,7 @@ a:hover {
     display: block;
     border:7px solid rgb(231, 230, 168);
     border-radius: 500px;
-    transition: 0.5s;
+    transition: 0.2s;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
 }
