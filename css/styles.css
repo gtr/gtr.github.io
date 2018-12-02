@@ -6,6 +6,15 @@ body {
     color:white;
 }
 
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
 .centered-content {
     color: white;
     text-align: left;
