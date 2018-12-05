@@ -33,7 +33,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    width: 310px;
+    width: 290px;
     display: block;
     max-width: 100%;
     align-self: center;
@@ -58,7 +58,7 @@ img {
     font-size: 17pt;
     margin-top: 15pt;
     margin-bottom: 15pt;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .greeting:hover {
@@ -68,13 +68,11 @@ img {
 
 a {
     color: rgb(231, 230, 168);
-    transition: .3s;
     display: inline-block;
     text-decoration: none;
 }
 
 a:hover {
-    transform: scale(1.01);
     color: rgb(233, 164, 164);
 }
 
@@ -85,30 +83,12 @@ a:hover {
 .fas, .fab {
     font-size: 14pt;
     color: white;
-    opacity: 0.8;
-    transition: 0.35s ease;
+    transition: 0.1s ease;
 }
 
 .fas:hover, .fab:hover {
-    /* color: rgb(231, 230, 168); */
-    transform: scale(1.35, 1.35);
+    transform: scale(1.25, 1.25);
     opacity: 1;
-}
-
-.fa-file-pdf:hover {
-    color: rgb(201, 96, 96);
-}
-
-.fa-linkedin:hover {
-    color: rgb(0, 119, 181);
-}
-
-.fa-envelope:hover {
-    color: rgb(231, 230, 168);
-}
-
-.fa-github:hover {
-    color: rgb(108, 198, 68)
 }
 
 .card-img-top:hover {
