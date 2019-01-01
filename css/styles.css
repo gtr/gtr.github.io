@@ -67,7 +67,7 @@ img {
 }
 
 a {
-    color: rgb(231, 230, 168);
+    color: rgb(221, 220, 157);
     display: inline-block;
     text-decoration: none;
 }
@@ -102,7 +102,7 @@ a:hover {
 .img-responsive {
     position: relative;
     display: block;
-    border:5px solid rgb(231, 230, 168);
+    border:5px solid rgb(221, 220, 157);
     border-radius: 500px;
     transition: 0.2s;
     -webkit-border-radius: 500px;
