@@ -67,7 +67,7 @@ img {
 }
 
 a {
-    color: rgb(221, 220, 157);
+    color: rgb(248, 247, 186);
     display: inline-block;
     text-decoration: none;
 }
@@ -102,13 +102,16 @@ a:hover {
 .img-responsive {
     position: relative;
     display: block;
-    border:5px solid rgb(221, 220, 157);
+    border:5px solid rgb(248, 247, 186);
     border-radius: 500px;
     transition: 0.2s;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
 }
 
+.random {
+    color: rgb(236, 235, 153);
+}
 .navigation {
     text-align: center;
 }
