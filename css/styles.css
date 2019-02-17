@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 510px;
+    max-width: 535px;
     align-self: center;
     text-align: center;
     margin-left: auto;
@@ -64,20 +64,21 @@ img {
 
 .cmd {
     color: #fc9494;
-    /* font-size: 16px; */
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
 
 a {
     color: #ffe6b5;
-    display: inline-block;
     text-decoration:  none;
     font-weight: bold;
+	overflow-wrap: break-word;
+    word-wrap: break-word;  
 }
 
 a:hover {
     color: #afdaed;
+    text-decoration: underline;
 }
 
 p {
