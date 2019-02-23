@@ -18,6 +18,9 @@ body {
 
 .content {
     min-height: 100%;
+    align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .content-inside {
