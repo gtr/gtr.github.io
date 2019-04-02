@@ -4,12 +4,11 @@ body {
     margin: 0;
     background-color: #1d1d1d;
     color:white;
-    font-size: 14px;
     line-height: 14pt;
 }
 
 .container {
-    max-width: 535px;
+    max-width: 545px;
     align-self: center;
     text-align: center;
     margin-left: auto;
@@ -68,7 +67,7 @@ img {
 .cmd {
     color: #fc9494;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 a {
@@ -93,7 +92,6 @@ p {
 }
 
 .fas, .fab {
-    font-size: 14pt;
     color: white;
     transition: 0.1s ease;
 }
@@ -127,7 +125,7 @@ p {
 
 .navigation {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .img-responsive:hover {
@@ -137,11 +135,12 @@ p {
 .about {
     margin-top: 15pt;
     text-align: left;
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .links {
+    /* font-size: 18px; */
+    /* margin-top: 12px; */
     text-align: center;
 }
 
