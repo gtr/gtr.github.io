@@ -4,11 +4,23 @@ body {
     margin: 0;
     background-color: #1d1d1d;
     color:white;
+    /* font-size: 14px; */
     line-height: 14pt;
 }
 
+@media screen and (max-width : 420px)
+{
+    body {
+    font-size:14px;
+    }
+
+    li {
+        margin-left: -24px;
+    }  
+}
+
 .container {
-    max-width: 545px;
+    max-width: 555px;
     align-self: center;
     text-align: center;
     margin-left: auto;
@@ -18,13 +30,13 @@ body {
 .content {
     min-height: 100%;
     align-items: center;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .content-inside {
-    padding: 20px;
-    padding-bottom: 50px;
+    padding: 6px;
+    /* padding-bottom: 50px; */
 }
 
 .centered-content {
@@ -34,34 +46,19 @@ body {
     padding: 20px;    
 }
 
-.nav-link:hover {
-    text-decoration: underline wavy #fc9494;
-    transform: scale(1.05);
-}
-
 img {
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    width: 270px;
+    width: 80px;
     display: block;
     max-width: 100%;
     align-self: center;
     height: auto;
-    margin-top: 8vh;
+    /* margin-top: 8vh; */
     border-radius: 5px 5px 2px 2px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    background-color: rgb(61, 61, 61);
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cmd {
@@ -79,7 +76,8 @@ a {
 }
 
 a:hover {
-    color: #afdaed;
+    /* color: #afdaed; */
+    color: #95f0c6;
     text-decoration: underline;
 }
 
@@ -101,27 +99,17 @@ p {
     opacity: 1;
 }
 
-.card-img-top:hover {
-    transform: scale(1.02, 1.02);
-}
-
-.card-img-top {
-    transition: 0.3s ease;
-}
 
 .img-responsive {
     position: relative;
     display: block;
-    border:4px solid #ffe6b5;
+    border:2px solid #ffffff;
     border-radius: 500px;
     transition: 0.2s;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
 }
 
-.random {
-    color: #ffe6b5;
-}
 
 .navigation {
     text-align: center;
@@ -139,25 +127,14 @@ p {
 }
 
 .links {
-    /* font-size: 18px; */
-    /* margin-top: 12px; */
+    font-size: 17px;
+    margin-top: 12px;
     text-align: center;
-}
-
-.outer-div {
-    padding: 30px;
-    margin-top: 6%;
-    text-align: center;
-}
-
-.inner-div {
-    margin: auto;
-    max-width: 700px;
-    height: 100px;
 }
 
 .hline-bottom {
     padding-bottom: 10px;
     margin-bottom: 4pt;
+    margin-top: -12px;
     border-bottom: 2px solid white;
 }
