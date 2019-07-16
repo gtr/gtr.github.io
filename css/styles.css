@@ -1,140 +1,49 @@
 html,
 body {
     height: 100%;
-    margin: 0;
-    background-color: #1d1d1d;
-    color:white;
-    /* font-size: 14px; */
-    line-height: 14pt;
-}
-
-@media screen and (max-width : 420px)
-{
-    body {
-    font-size:14px;
-    }
-
-    li {
-        margin-left: -24px;
-    }  
-}
-
-.container {
-    max-width: 555px;
+    font-size: 12px;
     align-self: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-.content {
-    min-height: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.content-inside {
-    padding: 6px;
-    /* padding-bottom: 50px; */
-}
-
-.centered-content {
-    color: white;
+.site {
+    line-height: 1.4;
+    width: 480px;
+    max-width: 88%;
+    word-wrap: break-word;
+    width: 480px;
+    align-self: left;
     text-align: left;
-    background: rgb(36, 36, 36);
-    padding: 20px;    
-}
-
-img {
-    position: relative;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
-    width: 80px;
-    display: block;
-    max-width: 100%;
-    align-self: center;
-    height: auto;
-    /* margin-top: 8vh; */
-    border-radius: 5px 5px 2px 2px;
+    margin-top: 40px;
+    min-height: 100%;
 }
 
-.cmd {
-    color: #fc9494;
-    font-weight: bold;
-    font-family: 'Ubuntu Mono', monospace;
+.site-header {
+    color: #aa2d1d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pre {
+    font-family: monospace;
 }
 
 a {
-    color: #ffe6b5;
-    text-decoration:  none;
-    font-weight: bold;
-	overflow-wrap: break-word;
-    word-wrap: break-word;  
+    text-decoration: underline;
+    color: black;
 }
 
 a:hover {
-    /* color: #afdaed; */
-    color: #95f0c6;
-    text-decoration: underline;
+    color:pink;
 }
 
-p {
-    margin-top: 10px;
+.switch {
+    float: right;
 }
 
-.container {
-    padding: 2px 16px;
-}
-
-.fas, .fab {
-    color: white;
-    transition: 0.1s ease;
-}
-
-.fas:hover, .fab:hover {
-    transform: scale(1.25, 1.25);
-    opacity: 1;
-}
-
-
-.img-responsive {
-    position: relative;
-    display: block;
-    border:2px solid #ffffff;
-    border-radius: 500px;
-    transition: 0.2s;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-}
-
-
-.navigation {
-    text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-.img-responsive:hover {
-    border:2px solid rgb(233, 164, 164);
-}
-
-.about {
-    margin-top: 15pt;
-    text-align: left;
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-.links {
-    font-size: 17px;
-    margin-top: 12px;
-    text-align: center;
-}
-
-.hline-bottom {
-    padding-bottom: 10px;
-    margin-bottom: 4pt;
-    margin-top: -12px;
-    border-bottom: 2px solid white;
+h3 {
+    margin-top: 24px;
+    margin-bottom: 10px;
 }
