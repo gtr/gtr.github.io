@@ -1,7 +1,7 @@
 html,
 body {
-    height: 100%;
-    font-size: 12px;
+    /* height: 100%; */
+    font-size: 14px;
     align-self: center;
     /* font-family: 'Courier New', Courier, monospace */
 }
@@ -37,9 +37,13 @@ a {
 }
 
 a:hover {
-    color:pink;
+    color:#568fd1 !important;
 }
 
 .switch {
     float: right;
+}
+
+.switch:hover {
+    transform: scale(1.25, 1.25);
 }
