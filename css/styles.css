@@ -44,6 +44,10 @@ a:hover {
     float: right;
 }
 
+.blocks {
+    filter: hue-rotate(-20deg);
+}
+
 .switch:hover {
     transform: scale(1.25, 1.25);
 }
