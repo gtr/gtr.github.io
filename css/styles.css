@@ -5,7 +5,7 @@ body {
 }
 
 .site {
-    width: 570px;
+    width: 520px;
     max-width: 88%;
     word-wrap: break-word;
     margin-left: auto;
@@ -37,4 +37,9 @@ a:visited {
 
 p {
     color: #252525;
+}
+
+.updated {
+    text-align: right;
+    color: rgb(100, 100, 100);
 }
