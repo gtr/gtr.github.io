@@ -5,7 +5,7 @@ body {
 }
 
 .site {
-    width: 520px;
+    width: 475px;
     max-width: 88%;
     word-wrap: break-word;
     margin-left: auto;
@@ -15,11 +15,25 @@ body {
 }
 
 .site-header {
-    color: #aa2d1d;
     margin-top: 18px;
     font-family:'Roboto Mono',monospace;
     margin-bottom: 20px;
+}
+
+.site-header-title {
     font-weight: bold;
+    float:left;
+    color: #aa2d1d;
+}
+
+.site-header-nav {
+    float: right;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 
 a {
