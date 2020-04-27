@@ -1,13 +1,13 @@
 html,
 body {
-    font-size: 14px;
+    font-size: 13px;
     font-family:'Roboto Mono',monospace;
 }
 
 .site {
     width: 475px;
-    max-width: 88%;
-    word-wrap: break-word;
+    max-width: 100%;
+    /* word-wrap: break-word; */
     margin-left: auto;
     margin-right: auto;
     line-height: 1.4;
@@ -17,7 +17,7 @@ body {
 .site-header {
     margin-top: 18px;
     font-family:'Roboto Mono',monospace;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .site-header-title {
