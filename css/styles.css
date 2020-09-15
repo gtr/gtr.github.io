@@ -1,11 +1,15 @@
 html,
 body {
-    font-size: 13px;
-    font-family:'Roboto Mono',monospace;
+    font-size: 14px;
+    /* font-family:'Roboto Mono',monospace; */
+    font-family:Noto Sans KR,sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  */
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .site {
-    width: 520px;
+    width: 550px;
     max-width: 88%;
     /* word-wrap: break-word; */
     margin-left: auto;
@@ -16,6 +20,12 @@ body {
 
 .site-header {
     margin-top: 18px;
+    font-family:'Roboto Mono',monospace;
+    margin-bottom: 1px;
+}
+
+.about {
+    font-size: 13px;
     font-family:'Roboto Mono',monospace;
 }
 
@@ -78,4 +88,23 @@ p {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.colorstrip{
+    margin-top: 22px;
+    margin-bottom: 20px;
+    width: 100%; height: 5px;
+    background-image: linear-gradient(to right, #9e3d30 , #d48c8c, #f1bbbb);
+}
+
+pre code {
+    border: 1px solid #c9cbd3;
+    display: block;
+    padding: 12px;
+}
+
+code {
+    font-size: 13px;
+    background-color: #f0f2fa;
+    display: inline-block;  
 }
