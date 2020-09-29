@@ -7,7 +7,7 @@ body {
 }
 
 .site {
-    width: 585px;
+    width: 571px;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,6 @@ body {
 .site-header {
     margin-top: auto;
     font-family:'Roboto Mono',monospace;
-    /* margin-bottom: 1px; */
 }
 
 .about {
