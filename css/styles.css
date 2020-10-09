@@ -2,36 +2,30 @@ html,
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
-    line-height: 1.55;
-    letter-spacing: 0.45px; 
+    line-height: 1.65;
+    letter-spacing: 0.5px; 
     margin-top: auto;
     margin-bottom: auto;
 }
 
 @media (max-width: 610px) {
     body {
-        line-height: 1.45;
-        font-size: 12px;
+        line-height: 1.6;
+        font-size: 13px;
     }
 }
 
 .site {
-    width: 600px;
+    width: 595px;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vh;
-    color: #252525;
+    color: #2e2e2e;
 }
 
 .site-header {
     margin-top: auto;
-}
-
-.site-header-title {
-    font-weight: 999;
-    float:left;
-    color: #aa2d1d;
 }
 
 .site-header-nav {
@@ -40,6 +34,7 @@ body {
 
 .title {
     font-weight: 999;
+    color: #7d2418;
 }
 
 img {
@@ -63,7 +58,7 @@ a:visited {
 
 .updated {
     text-align: right;
-    color: rgb(100, 100, 100);
+    color: #646464;
 }
 
 .colorstrip{
