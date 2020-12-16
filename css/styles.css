@@ -28,8 +28,14 @@ body {
     margin-top: auto;
 }
 
-.site-header-nav {
-    float: right;
+.right{
+    float:right;
+}
+
+.left {
+    font-weight: 999;
+    color: #7d2418;
+    float: left;
 }
 
 .title {
