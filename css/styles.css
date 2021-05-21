@@ -131,7 +131,7 @@ li {
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.6s;
+    transition: 0.001s;
 }
 
 .accordion:hover {
