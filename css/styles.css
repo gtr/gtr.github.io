@@ -1,4 +1,3 @@
-html,
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
@@ -8,70 +7,28 @@ body {
     margin-bottom: auto;
 }
 
-@media (max-width: 610px) {
-    body {
-        line-height: 1.6;
-        font-size: 12px;
-    }
-}
-
 .site {
-    width: 600px;
+    width: 650px;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vh;
     color: #2e2e2e;
+    margin-bottom: 30px;
 }
-
-.right{
-    float:right;
-}
-
-.left {
-    font-weight: 999;
-    color: #7d2418;
-    float: left;
-}
-
-.left-link {
-    float: left;
-}
-
-.title {
-    font-weight: 999;
-    color: #7d2418;
-}
-
-h2  {
-    color: #7d2418;
-}
-
-h3 {
-    padding-top: 8px;
-    color: #7d2418;
-
-}
-
 
 img {
     width: 100%;
 }
 
-.album {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.date {
-    margin-top: -10px;
-    font-style: italic;
-    color: rgb(46, 46, 46);
-}
-
-.year {
+.left {
     font-weight: 999;
-    margin-bottom: -15px;
+    color: black;
+    float: left;
+}
+
+.right{
+    float:right;
 }
 
 a {
@@ -87,22 +44,11 @@ a:visited {
     color: #6767d8 !important;
 }
 
-.updated {
-    text-align: right;
-    color: #646464;
+.site-header {
+    margin-bottom: 20px;
+
 }
 
-pre code {
-    border: 1px solid #c9cbd3;
-    display: block;
-    padding: 12px;
-}
-
-code {
-    font-size: 12px;
-    background-color: #f0f2fa;
-    display: inline-block;  
-}
 
 ul{
     margin-left:-12px;
