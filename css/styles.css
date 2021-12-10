@@ -20,12 +20,12 @@ h2 {
 }
 
 .site {
-    width: 600px;
+    width: 640px;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vh;
-    color: #2e2e2e;
+    color: #131313;
     margin-bottom: 30px;
 }
 
@@ -45,15 +45,15 @@ img {
 
 a {
     text-decoration: underline;
-    color: #6767d8 !important ;
+    color: #40358b !important ;
 }
 
 a:hover {
-    color: #6767d8 !important;
+    color: #40358b !important;
 }
 
 a:visited {
-    color: #6767d8 !important;
+    color: #40358b !important;
 }
 
 .site-header {
@@ -64,6 +64,12 @@ a:visited {
 
 ul{
     margin-left:-12px;
+}
+
+ul-links {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
 
 li {
