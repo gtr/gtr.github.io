@@ -45,15 +45,15 @@ img {
 
 a {
     text-decoration: underline;
-    color: #40358b !important ;
+    color: #5a4dac !important ;
 }
 
 a:hover {
-    color: #40358b !important;
+    color: #5a4dac !important;
 }
 
 a:visited {
-    color: #40358b !important;
+    color: #5a4dac !important;
 }
 
 .site-header {
