@@ -1,11 +1,12 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    line-height: 1.65;
+    font-family: EB Garamond;
+    font-size: 16px;
+    line-height: 1.6;
     letter-spacing: 0.5px; 
     margin-top: auto;
     margin-bottom: auto;
 }
+
 
 @media (max-width: 610px) {
     body {
@@ -14,9 +15,31 @@ body {
     }
 }
 
+h1 {
+    font-family: 'Ubuntu';
+    color: #7d2418;
+}
+
 h2 {
+    font-family: 'Ubuntu';
     font-weight: bold;
     color: #7d2418;
+}
+
+h3 {
+    font-weight: bold;
+    color: #7d2418;
+}
+
+.date {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color:#616161;
+}
+
+.year {
+    font-family: EB Garamond;
+    font-size: 18px;
 }
 
 .site {
@@ -25,7 +48,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5vh;
-    color: #131313;
+    color: #000000;
     margin-bottom: 30px;
 }
 
@@ -34,26 +57,30 @@ img {
 }
 
 .left {
+    font-family: 'Ubuntu';
+    font-size: 14px;
     font-weight: 999;
     color: #7d2418;
     float: left;
 }
 
 .right{
+    font-family: 'Ubuntu';
+    font-size: 14px;
     float:right;
 }
 
 a {
     text-decoration: underline;
-    color: #5a4dac !important ;
+    color: #6152be !important ;
 }
 
 a:hover {
-    color: #5a4dac !important;
+    color: #6152be !important ;
 }
 
 a:visited {
-    color: #5a4dac !important;
+    color: #6152be !important ;
 }
 
 .site-header {
@@ -61,6 +88,19 @@ a:visited {
 
 }
 
+ pre { 
+    font-family: EB Garamond; 
+    font-size: 13px; 
+    background-color: #e0e8f5;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5667px; 
+    color: #000000 !important ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 
 ul{
     margin-left:-12px;
@@ -77,13 +117,13 @@ li {
 }
 
 .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
     font-size: 13px;
     float: right;
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";
 }
 
  /* Style the buttons that are used to open and close the accordion panel */
@@ -132,11 +172,15 @@ li {
 }
 
 .accordion-open:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796";
     font-size: 13px;
     float: right;
 }
 
 .active:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
+}
+
+.bottom-site {
+    padding-bottom: 30px;
 }
