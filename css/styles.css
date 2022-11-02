@@ -8,12 +8,12 @@ body {
 }
 
 
-@media (max-width: 610px) {
+/* @media (max-width: 610px) {
     body {
         line-height: 1.6;
         font-size: 12px;
     }
-}
+} */
 
 h1 {
     font-family: 'Ubuntu';
@@ -88,7 +88,7 @@ a:visited {
 
 }
 
- pre { 
+ /* pre { 
     font-family: EB Garamond; 
     font-size: 13px; 
     background-color: #e0e8f5;
@@ -100,7 +100,7 @@ a:visited {
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-}
+} */
 
 ul{
     margin-left:-12px;
