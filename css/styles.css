@@ -1,186 +1,40 @@
+
 body {
-    font-family: 'Ubuntu';
-    font-size: 14px;
-    line-height: 1.6;
-    letter-spacing: 0.5px; 
-    margin-top: auto;
-    margin-bottom: auto;
+    font-family: monospace;
+    font-size:   12pt;
+    /* line-height: 140%; */
+    letter-spacing:0.3pt;
 }
 
-
-/* @media (max-width: 610px) {
-    body {
-        line-height: 1.6;
-        font-size: 12px;
-    }
-} */
-
-h1 {
-    font-family: 'Ubuntu';
-    color: #7d2418;
-}
-
-h2 {
-    font-family: 'Ubuntu';
+.title {
+    /* color: #2e8522; */
     font-weight: bold;
-    color: #7d2418;
-}
-
-h3 {
-    font-weight: bold;
-    color: #7d2418;
-}
-
-.date {
-    font-family: 'Ubuntu';
-    font-size: 14px;
-    color:#616161;
-}
-
-.year {
-    font-family: 'Ubuntu';
-    font-size: 14px;
+    /* margin-top: 6px; */
 }
 
 .site {
-    width: 640px;
+    width: 600px;
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
-    color: #000000;
-    margin-bottom: 30px;
+    margin-left: 10%;
+    /* margin-right: auto; */
+    margin-top: 20%;
+    color: #2e2e2e;
 }
+
 
 img {
-    width: 100%;
-}
-
-.left {
-    font-family: 'Ubuntu';
-    font-size: 14px;
-    font-weight: 999;
-    color: #7d2418;
-    float: left;
-}
-
-.right{
-    font-family: 'Ubuntu';
-    font-size: 14px;
-    float:right;
+    max-width: 100%;
 }
 
 a {
     text-decoration: underline;
-    color: #6152be !important ;
+    color: #575ae2 !important ;
 }
 
 a:hover {
-    color: #6152be !important ;
+    color: #575ae2 !important;
 }
 
 a:visited {
-    color: #6152be !important ;
-}
-
-.site-header {
-    margin-bottom: 20px;
-
-}
-
- /* pre { 
-    font-family: EB Garamond; 
-    font-size: 13px; 
-    background-color: #e0e8f5;
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 18.5667px; 
-    color: #000000 !important ;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-} */
-
-ul{
-    margin-left:-12px;
-}
-
-ul-links {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-
-li {
-    margin-bottom: 2px;
-}
-
-.accordion:after {
-    content: '\02795';
-    font-size: 13px;
-    float: right;
-}
-
-.active:after {
-  content: "\2796";
-}
-
- /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: rgb(255, 255, 255);
-    padding: 16px;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.001s;
-}
-
-.accordion:hover {
-    background-color: #cfcfcf;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 12px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-} 
-
-.panel-open {
-    padding: 0 12px;
-    background-color: white;
-    overflow: hidden;
-}
-
-.accordion-open {
-    background-color: rgb(255, 255, 255);
-    padding: 16px;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.6s;
-}
-
-.accordion-open:hover {
-    background-color: #cfcfcf;
-}
-
-.accordion-open:after {
-    content: "\2796";
-    font-size: 13px;
-    float: right;
-}
-
-.active:after {
-    content: '\02795';
-}
-
-.bottom-site {
-    padding-bottom: 30px;
+    color: #575ae2 !important;
 }
