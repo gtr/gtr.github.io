@@ -7,20 +7,17 @@ body {
 }
 
 .title {
-    /* color: #2e8522; */
     font-weight: bold;
-    /* margin-top: 6px; */
+    margin-bottom: 14px;
 }
 
 .site {
     width: 600px;
     max-width: 90%;
     margin-left: 10%;
-    /* margin-right: auto; */
-    margin-top: 20%;
+    margin-top: 5%;
     color: #2e2e2e;
 }
-
 
 img {
     max-width: 100%;
@@ -37,4 +34,24 @@ a:hover {
 
 a:visited {
     color: #575ae2 !important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+li {
+    margin-left: -15px;
+    margin-bottom: 5px;
 }
