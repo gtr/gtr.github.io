@@ -1,57 +1,142 @@
-
 body {
-    font-family: monospace;
-    font-size:   12pt;
-    /* line-height: 140%; */
-    letter-spacing:0.3pt;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+    letter-spacing: 0.5px; 
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.title {
+@media (max-width: 610px) {
+    body {
+        line-height: 1.6;
+        font-size: 10px;
+    }
+}
+
+h2 {
     font-weight: bold;
-    margin-bottom: 14px;
+    color: #7d2418;
 }
 
 .site {
-    width: 600px;
+    width: 640px;
     max-width: 90%;
-    margin-left: 10%;
-    margin-top: 5%;
-    color: #2e2e2e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    color: #131313;
+    margin-bottom: 30px;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
+}
+
+.left {
+    font-weight: 999;
+    color: #7d2418;
+    float: left;
+}
+
+.right{
+    float:right;
 }
 
 a {
     text-decoration: underline;
-    color: #575ae2 !important ;
+    color: #5a4dac !important ;
 }
 
 a:hover {
-    color: #575ae2 !important;
+    color: #5a4dac !important;
 }
 
 a:visited {
-    color: #575ae2 !important;
+    color: #5a4dac !important;
 }
 
-.container {
-    display: flex;
-    align-items: center;
+.site-header {
+    margin-bottom: 20px;
+
 }
 
-.image {
-    margin-right: 10px;
+
+ul{
+    margin-left:-12px;
 }
 
-.links {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+ul-links {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
 
 li {
-    margin-left: -15px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.001s;
+}
+
+.accordion:hover {
+    background-color: #cfcfcf;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 12px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+} 
+
+.panel-open {
+    padding: 0 12px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.accordion-open {
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+}
+
+.accordion-open:hover {
+    background-color: #cfcfcf;
+}
+
+.accordion-open:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    font-size: 13px;
+    float: right;
+}
+
+.active:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
 }
